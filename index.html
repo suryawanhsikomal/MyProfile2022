@@ -29,16 +29,22 @@
         box-shadow: 4px 6px 8px blue;
         border-radius: 5px;
       }
-      .fontaoswn{
+      /* .fontaoswn{
         padding-right: 40px;
-      }
-      .space{
+      } */
+      .space {
         padding-right: 30px;
+      }
+      #footer li {
+        display: inline-block;
+        /* background-color: bisque; */
+        width: 100px;
       }
     </style>
   </head>
   <body>
     <header>
+      <nav></nav>
       <span class="fontaoswn">
         <i class="fa fa-user" aria-hidden="true"></i
         ><lable> Komal Suryawanshi</lable>
@@ -56,22 +62,22 @@
     <br />
     <nav>
       <span class="space">
-      <a href="home.html" target="myframe"> HOME </a>
-    </span>
-    <span class="space">
-      <a href="techStack.html" target="myframe">TECHNOLOGY STACK </a
-      ></span>
-      <span class="space">
-      <a href="education.html" target="myframe"> EDUCATION </a
-      ></span>
-      <span class="space">
-       <a href=""> PROJECT</a>
+        <a href="home.html" target="myframe"> HOME </a>
       </span>
       <span class="space">
-      <a href="personal.html" target="myframe">PERSONAL</a
-      ></span>
+        <a href="techStack.html" target="myframe">TECHNOLOGY STACK </a></span
+      >
       <span class="space">
-      <a href="contctus.html" target="myframe"> CONTACT US</a>
+        <a href="education.html" target="myframe"> EDUCATION </a></span
+      >
+      <span class="space">
+        <a href=""> PROJECT</a>
+      </span>
+      <span class="space">
+        <a href="personal.html" target="myframe">PERSONAL</a></span
+      >
+      <span class="space">
+        <a href="contctus.html" target="myframe"> CONTACT US</a>
       </span>
     </nav>
     <br />
@@ -79,14 +85,37 @@
     <iframe src="home.html" width="800" height="500" name="myframe"></iframe>
     <footer>
       <b>Follow me:</b>
-      <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a
-      >&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a
-      >&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a
-      >&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+      <ul id="footer">
+        <li>
+          <a href="#"
+            ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fa fa-facebook-official" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+        </li>
+      </ul>
     </footer>
+
+    <!-- <footer>
+      <b>Follow me:</b>
+    
+      <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a
+      >
+      <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a
+      >
+      <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a
+      >
+      <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+    </footer> -->
     <h4>
       <marquee behaviour="sliding" height="40" width="1000" direction="left"
         >THANK YOU
